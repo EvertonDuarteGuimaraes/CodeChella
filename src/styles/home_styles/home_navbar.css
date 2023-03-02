@@ -1,0 +1,107 @@
+.container__navbar-home {
+    display: flex;
+    position: relative;
+    height: 128px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-blue);
+}
+
+.codeChella__logo-branco {
+    width: 230px;
+    height: 64px;
+}
+
+.menu__hamburger {
+    display: block;
+    width: 32px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navbar__options-list--column {
+    display: flex;  
+    position: absolute;
+    width: 190px;
+    height: 0px;
+    background-color: var(--primary-blue);
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    align-items: center;
+    
+    -moz-transition: height .15s ease;
+    -webkit-transition: height .15s ease;
+    -o-transition: height .15s ease;
+    transition: height .15s ease;
+}
+
+.navbar__options-list--row {
+    display: none;
+}
+
+.navbar__option {
+    text-decoration: none;
+    width: 90%;
+    text-align: center;
+}
+
+.navbar__option-text {
+    color: var(--white);
+    font-family: var(--font-text);
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid var(--white);
+    padding: 1em 0;
+}
+
+.navbar__option-text:hover, .menu__hamburger:hover {
+    color: var(--primary-coral);
+}
+
+@media screen and (min-width:720px) {
+    .container__navbar-home {
+        flex-direction: column;
+        height: 200px;
+        padding: 1em;
+    }
+
+    .menu__hamburger,
+    .navbar__options-list--column {
+        display: none;
+    }
+
+    .navbar__options-list--row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__option {
+        align-items: center;
+    }
+
+    .navbar__option-text {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container__navbar-home {
+        flex-direction: row;
+        height: 128px;
+        padding: 0 6em;
+        justify-content: space-between;
+    }
+
+    .navbar__options-list--row {
+        display: flex;
+        position: initial;
+        overflow: hidden;
+        align-items: center;
+        width: 60%;
+    }
+}
