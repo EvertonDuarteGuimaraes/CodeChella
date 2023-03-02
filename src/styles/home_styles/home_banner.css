@@ -1,0 +1,21 @@
+.container__banner-home {
+    background-image: url('../../assets/img/code_chella_banner-home--mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 270px;
+}
+
+@media screen and (min-width: 720px) {
+    .container__banner-home {
+        background-image: url('../../assets/img/code_chella_banner-home--tablet.jpg');
+        height: 384px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container__banner-home {       
+        background-image: url('../../assets/img/code_chella_banner-home--desktop.jpg');
+        height: 407px;   
+    }
+}
