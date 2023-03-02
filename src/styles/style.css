@@ -1,0 +1,31 @@
+@import url('./home_styles/home_navbar.css');
+
+:root {
+    /*Colors*/
+    --background-gradient: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    --primary-blue: #2E7BA2;
+    --secondary-blue: #C8DEEF;
+    --tertiary-blue: #BFDAE6; 
+    --primary-mustard: #DF9010;
+    --primary-coral: #FACF9D;
+    --secondary-coral: #FBF0DD;
+    --tertiary-coral: #FCF0DD;
+    --white: #FFFFFF;
+    /*fonts*/
+    --font-title: 'Calistoga', sans-serif;
+    --font-text: 'Raleway', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: var(--background-gradient);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
