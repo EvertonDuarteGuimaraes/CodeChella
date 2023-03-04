@@ -1,6 +1,8 @@
-@import url('./home_styles/home_navbar.css');
+@import url('./navbar.css');
+/*Home Styles*/
 @import url('./home_styles/home_banner.css');
 @import url('./home_styles/home_about.css');
+@import url('./home_styles/home_line_up.css');
 
 :root {
     /*Colors*/
@@ -32,4 +34,5 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: var(--font-text);
 }

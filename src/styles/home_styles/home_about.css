@@ -28,7 +28,6 @@
 }
 
 .event__description-title {
-    font-family: var(--font-text);
     font-weight: 700;
     font-size: 32px;
     max-width: 420px;
@@ -37,7 +36,6 @@
 }
 
 .event__description-text {
-    font-family: var(--font-text);
     font-weight: 500;
     font-size: 20px;
     max-width: 500px;
@@ -63,7 +61,6 @@
 }
 
 .button__event-ticket--text {
-    font-family: var(--font-text);
     font-weight: 700;
     font-size: 20px;
     color: var(--white);
@@ -78,13 +75,14 @@
 @media screen and (min-width: 1200px) {
     .container__about-home {
         flex-direction: row;
+        justify-content: center;
     }
 
     .event__image {
-        margin-left: 3em;
+        width: 620px;
     }
 
     .event__description {
-        margin-right: 3em;
+        width: 620px;
     }
 }
