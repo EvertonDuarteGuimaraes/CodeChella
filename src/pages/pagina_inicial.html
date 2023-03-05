@@ -19,40 +19,46 @@
         <img src="../assets/img/code_chella_logo-branco.svg" alt="Logo da CodeChella branco" class="codeChella__logo-branco">    
         <img src="../assets/img/code_chella_menu_hamburger.svg" alt="menu hamburguer do cabeçalho" class="menu__hamburger">
         <!--for layouts with max-width === 719px--> 
-        <div class="navbar__options-list--column">
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">A experiência</p>
-            </a>
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">Mapa de Setores</p>
-            </a>
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">Informações</p>
-            </a>
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">Ingresso</p>
-            </a>
-        </div>
+        <ul class="navbar__options-list--column">
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> A experiência </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Mapa de Setores </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Informações </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Ingresso </p> </a>
+            </li>
+        </ul>
         <!--for layouts with min-width === 720px-->
-        <div class="navbar__options-list--row">
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">A experiência</p>
-            </a>
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">Mapa de Setores</p>
-            </a>
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">Informações</p>
-            </a>
-            <a href="#" class="navbar__option">
-                <p class="navbar__option-text">Ingresso</p>
-            </a>
-        </div>
+        <ul class="navbar__options-list--row">
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> A experiência </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Mapa de Setores </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Informações </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Ingresso </p> </a>
+            </li>
+        </ul>
     </header>
     <main class="container__main-home">
-        <div class="container__banner-home"></div>
-        <section class="container__about-home">
-            <div class="event__image"></div>
+        <div class="container__banner banner__home"></div>
+        <section class="container__info">
+            <div class="event__image event__image-home"></div>
             <div class="event__description">
                 <h2 class="event__description-title">
                     &lt; 11 e 12 de Março &gt; Aluródromo de São Paulo
@@ -146,7 +152,7 @@
                 <li class="line__up-event line__up-event--extra"> <p>Rubycat Dolls</p> </li>
             </ul>
         </section>
-        <div class="container__banner-home--bottom"></div>
+        <div class="container__banner-bottom banner__home-bottom"></div>
     </main>
     <footer class="container__footer">        
         <img src="../assets/img/code_chella_logo-preto.svg" alt="logo da CodeChella preto" class="footer__logo">
@@ -163,7 +169,6 @@
     
         <p class="footer__text copyright">Desenvolvido por Everton Duarte Guimarães. Projeto da Alura fictício sem fins comerciais.</p>            
     </footer>
-
     <script type="module" src="../components/main.js"></script>
 </body>
 </html>
