@@ -1,4 +1,5 @@
 @import url('./navbar.css');
+@import url('./footer.css');
 /*Home Styles*/
 @import url('./home_styles/home_banner.css');
 @import url('./home_styles/home_about.css');

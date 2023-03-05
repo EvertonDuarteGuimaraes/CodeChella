@@ -6,10 +6,24 @@
     height: 270px;
 }
 
+.container__banner-home--bottom {
+    background-image: url('../../assets/img/code_chella_banner-home--bottom_mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 338px;
+    margin: 1em 0;
+}
+
 @media screen and (min-width: 600px) {
     .container__banner-home {
         background-image: url('../../assets/img/code_chella_banner-home--tablet.jpg');
         height: 384px;
+    }
+    
+    .container__banner-home--bottom {
+        background-image: url('../../assets/img/code_chella_banner-home--bottom_tablet.jpg');
+        height: 338px;
     }
 }
 
@@ -17,5 +31,10 @@
     .container__banner-home {       
         background-image: url('../../assets/img/code_chella_banner-home--desktop.jpg');
         height: 407px;   
+    }
+
+    .container__banner-home--bottom {       
+        background-image: url('../../assets/img/code_chella_banner-home--bottom_desktop.jpg');
+        height: 338px;   
     }
 }
