@@ -1,0 +1,62 @@
+.container__banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 270px;
+    margin-bottom: 1em;
+}
+
+.container__banner-bottom {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 338px;
+    margin: 1em 0;
+}
+
+/* Banner home */
+.banner__home {
+    background-image: url('../assets/img/code_chella_banner-home--mobile.jpg');
+}
+
+.banner__home-bottom {
+    background-image: url('../assets/img/code_chella_banner-home--bottom_mobile.jpg');
+}
+
+@media screen and (min-width: 600px) {
+    .container__banner {
+        height: 384px;
+    }
+    
+    .container__banner-bottom {
+        height: 338px;
+    }
+
+    /* Banner home */
+    .banner__home {
+        background-image: url('../assets/img/code_chella_banner-home--tablet.jpg');
+    }
+
+    .banner__home-bottom {
+        background-image: url('../assets/img/code_chella_banner-home--bottom_tablet.jpg');
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container__banner {       
+        height: 407px;   
+    }
+
+    .container__banner {       
+        height: 338px;   
+    }
+
+        /* Banner home */
+        .banner__home {
+            background-image: url('../assets/img/code_chella_banner-home--desktop.jpg');
+        }
+    
+        .banner__home-bottom {
+            background-image: url('../assets/img/code_chella_banner-home--bottom_desktop.jpg');
+        }
+}
