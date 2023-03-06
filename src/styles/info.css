@@ -21,6 +21,18 @@
     background-image: url('../assets/img/code_chella_picture-event--mobile.svg');
 }
 
+.event__image-accessibility {
+    background-image: url('../assets/img/code_chella_picture-accessibility--mobile.svg');
+}
+
+.event__image-sustainability {
+    background-image: url('../assets/img/code_chella_picture-sustainability--mobile.svg');
+}
+
+.event__image-attractions {
+    background-image: url('../assets/img/code_chella_picture-attractions--mobile.svg');
+}
+
 .event__description {
     display: flex;
     flex-direction: column;
@@ -73,12 +85,28 @@
     .event__image-home {
         background-image: url('../assets/img/code_chella_picture-event--tablet.svg');
     }
+
+    .event__image-accessibility {
+        background-image: url('../assets/img/code_chella_picture-accessibility--tablet.svg');
+    }
+
+    .event__image-sustainability {
+        background-image: url('../assets/img/code_chella_picture-sustainability--tablet.svg');
+    }
+
+    .event__image-attractions {
+        background-image: url('../assets/img/code_chella_picture-attractions--tablet.svg');
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .container__info {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .container__info-row--reverse {
+        flex-direction: row-reverse;
     }
 
     .event__image {
