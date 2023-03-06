@@ -35,4 +35,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: var(--font-text);
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
