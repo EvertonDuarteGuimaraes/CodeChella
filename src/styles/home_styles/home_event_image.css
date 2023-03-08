@@ -1,0 +1,9 @@
+.event__image-home {
+    background-image: url('../../assets/img/code_chella_picture-event--mobile.svg');
+}
+
+@media screen and  (min-width: 600px) {
+    .event__image-home {
+        background-image: url('../../assets/img/code_chella_picture-event--tablet.svg');
+    }
+}
