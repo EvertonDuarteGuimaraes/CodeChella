@@ -28,6 +28,11 @@
     background-image: url('../assets/img/code_chella_banner-experience--mobile.jpg');
 }
 
+/* Banner maps */
+.banner__maps {
+    background-image: url('../assets/img/code_chella_banner-maps--mobile.jpg');
+}
+
 @media screen and (min-width: 600px) {
     .container__banner {
         height: 384px;
@@ -49,6 +54,11 @@
     /* Banner experience */
     .banner__experience {
         background-image: url('../assets/img/code_chella_banner-experience--tablet.jpg');
+    }
+
+    /* Banner maps */
+    .banner__maps {
+        background-image: url('../assets/img/code_chella_banner-maps--tablet.jpg');
     }
 }
 
@@ -73,5 +83,10 @@
     /* Banner experience */
     .banner__experience {
         background-image: url('../assets/img/code_chella_banner-experience--desktop.jpg');
+    }
+
+    /* Banner maps */
+    .banner__maps {
+        background-image: url('../assets/img/code_chella_banner-maps--desktop.jpg');
     }
 }
