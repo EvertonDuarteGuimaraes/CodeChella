@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChella Festival</title>
+
+    <link rel="stylesheet" href="../styles/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="container__navbar">
+        <img src="../assets/img/code_chella_logo-branco.svg" alt="Logo da CodeChella branco" class="codeChella__logo-branco">    
+        <img src="../assets/img/code_chella_menu_hamburger.svg" alt="menu hamburguer do cabeçalho" class="menu__hamburger">
+        <!--for layouts with max-width === 719px--> 
+        <ul class="navbar__options-list--column">
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> A experiência </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Mapa de Setores </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Informações </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Ingresso </p> </a>
+            </li>
+        </ul>
+        <!--for layouts with min-width === 720px-->
+        <ul class="navbar__options-list--row">
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> A experiência </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Mapa de Setores </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Informações </p> </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar__option"> <p class="navbar__option-text"> Ingresso </p> </a>
+            </li>
+        </ul>
+    </header>
+    <main class="container__main-experience">
+        <div class="container__banner banner__experience"></div>
+        <section class="container__information">
+            <div class="event__image event__image-accessibility"></div>
+            <div class="event__description">
+                <h2 class="event__description-title">Acessibilidade e Inclusão</h2>
+                <p class="event__description-text">
+                    Nosso evento tenta abraçar um público mais amplo em todos os 
+                    sentidos, de todas as idades, corpos, gostos e pensamentos!  
+                    Isso está presente no  espaço físico, na sinalização, no 
+                    treinamento da equipe de apoio, na comunicação em libras, 
+                    braile, visual e tátil. Além disso, dispomos de ingressos 
+                    gratuitos para pessoas com deficiência e acompanhantes, 
+                    pessoas idosas e crianças!
+                </p>
+            </div>
+        </section>
+        <section class="container__information container__information-row--reverse">
+            <div class="event__image event__image-sustainability"></div>
+            <div class="event__description">
+                <h2 class="event__description-title">Sustentabilidade</h2>
+                <p class="event__description-text">
+                    Queremos estar aqui celebrando daqui a 50, 100 anos! 
+                    Por isso, levamos o futuro do nosso planeta a sério. 
+                    Nosso festival é carbono zero, com utilização de copos retornáveis, 
+                    coleta e destinação adequada de resíduos, e transporte coletivo.
+                </p>
+            </div>
+        </section>
+        <section class="container__information">
+            <div class="event__image event__image-attractions"></div>
+            <div class="event__description">
+                <h2 class="event__description-title">Atrações</h2>
+                <p class="event__description-text">
+                    Intervenções artísticas e culturais para todos os gostos! 
+                    Durante os intervalos dos shows, nossa experiência contará 
+                    com recreação para crianças, oficina de cerâmica, origami, 
+                    circo e aquarela! Além disso, nosso espaço contra com 3 praças 
+                    de alimentação, roda gigante e outros brinquedos!
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="container__footer">        
+        <img src="../assets/img/code_chella_logo-preto.svg" alt="logo da CodeChella preto" class="footer__logo">
+
+        <div class="container__footer-social--media">
+            <p class="footer__text media__text">Acesse nossas redes:</p>
+            <ul class="footer__social-media--list">
+                <li class="footer__social-media--link"> <img src="../assets/img/whatsapp_icon.svg" alt=""></li>
+                <li class="footer__social-media--link"> <img src="../assets/img/twitch_tv_icon.svg" alt=""></li>
+                <li class="footer__social-media--link"> <img src="../assets/img/twitter_icon.svg" alt=""></li>
+                <li class="footer__social-media--link"> <img src="../assets/img/instagram_icon.svg" alt=""></li>
+            </ul>
+        </div>
+    
+        <p class="footer__text copyright">Desenvolvido por Everton Duarte Guimarães. Projeto da Alura fictício sem fins comerciais.</p>            
+    </footer>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
