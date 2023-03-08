@@ -1,0 +1,68 @@
+.container__more-details .container__information { 
+    margin: 1em;
+}
+
+.container__more-details .event__image {
+    height: 240px;
+}
+
+.container__more-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.more__details-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--grey);
+    text-align: center;
+}
+
+.event__image-sector {
+    background-image: url('../../assets/img/code_chella_picture-sector--mobile.svg');
+}
+
+.event__image-premium--dance_flor {
+    background-image: url('../../assets/img/code_chella_picture-premium_dance_flor--mobile.svg');
+}
+
+.event__image-chairs {
+    background-image: url('../../assets/img/code_chella_picture-chairs--mobile.svg');
+}
+
+@media screen and (min-width:600px) {
+    .event__image-sector {
+        background-image: url('../../assets/img/code_chella_picture-sector--tablet.svg');
+    }
+
+    .event__image-premium--dance_flor {
+        background-image: url('../../assets/img/code_chella_picture-premium_dance_flor--tablet.svg');
+    }
+
+    .event__image-chairs {
+        background-image: url('../../assets/img/code_chella_picture-chairs--tablet.svg');
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container__more-details {
+        flex-direction: row;
+        align-items: flex-start;
+        height: 680px;
+    }
+
+    .maps__information {
+        flex-direction: column;
+        margin: 0;
+        max-width: 400px;
+    }
+
+    .maps__information .event__description {
+        max-width: 400px;
+    }
+
+    .maps__information-middle {
+       align-self: flex-end;
+    }
+}

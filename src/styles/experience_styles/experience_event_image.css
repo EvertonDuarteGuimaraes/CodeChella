@@ -1,0 +1,31 @@
+.event__image-accessibility {
+    background-image: url('../../assets/img/code_chella_picture-accessibility--mobile.svg');
+}
+
+.event__image-sustainability {
+    background-image: url('../../assets/img/code_chella_picture-sustainability--mobile.svg');
+}
+
+.event__image-attractions {
+    background-image: url('../../assets/img/code_chella_picture-attractions--mobile.svg');
+}
+
+@media screen and (min-width: 600px) {
+    .event__image-accessibility {
+        background-image: url('../../assets/img/code_chella_picture-accessibility--tablet.svg');
+    }
+
+    .event__image-sustainability {
+        background-image: url('../../assets/img/code_chella_picture-sustainability--tablet.svg');
+    }
+
+    .event__image-attractions {
+        background-image: url('../../assets/img/code_chella_picture-attractions--tablet.svg');
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container__information-row--reverse {
+        flex-direction: row-reverse;
+    }
+}

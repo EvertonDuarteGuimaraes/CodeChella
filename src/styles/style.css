@@ -2,7 +2,15 @@
 @import url('./footer.css');
 @import url('./banner.css');
 @import url('./information.css');
-@import url('./line_up.css');
+
+@import url('./home_styles/home_line_up.css');
+@import url('./home_styles/home_button-ticket.css');
+@import url('./home_styles/home_event_image.css');
+
+@import url('./experience_styles/experience_event_image.css');
+
+@import url('./maps_styles/maps_details.css');
+@import url('./maps_styles/maps_figure.css');
 
 :root {
     /*Colors*/
