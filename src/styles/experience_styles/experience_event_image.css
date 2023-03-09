@@ -25,7 +25,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .container__information-row--reverse {
+    .container__event_image_description-row--reverse {
         flex-direction: row-reverse;
     }
 }
