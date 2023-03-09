@@ -12,6 +12,14 @@
     height: 64px;
 }
 
+.home__button {
+    transition: all 0.3s ease-in-out;
+}
+
+.home__button:hover {
+    transform: scale(1.05);
+}
+
 .menu__hamburger {
     display: block;
     width: 32px;

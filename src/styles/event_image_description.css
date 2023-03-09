@@ -1,4 +1,4 @@
-.container__information {
+.container__event_image_description {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -44,7 +44,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .container__information {
+    .container__event_image_description {
         flex-direction: row;
         justify-content: center;
     }
