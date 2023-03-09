@@ -1,3 +1,3 @@
-import {HomeNavbar} from './components/navbar.js'
+import {Navbar} from './components/navbar.js'
 
-const homeMenuHamburger = new HomeNavbar();
+const navbarMenuHamburger = new Navbar();

@@ -1,4 +1,4 @@
-export class HomeNavbar {
+export class Navbar {
     constructor () {
         this._menuHamburger = document.querySelector('.menu__hamburger');
         this._options = document.querySelector('.navbar__options-list--column');
