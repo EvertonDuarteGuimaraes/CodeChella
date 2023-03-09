@@ -8,10 +8,13 @@
     border-radius: 1em;
     background-color: var(--primary-blue);
     box-shadow: 4px 4px 0px 0px var(--grey);
+
+    transition:all 0.2s ease-in-out;
 }
 
 .button__event-ticket:hover {
     background-color: var(--secondary-blue);
+    transform: scale(1.03);
 }
 
 .button__event-ticket--text {
