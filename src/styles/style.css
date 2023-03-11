@@ -12,6 +12,9 @@
 @import url('./maps_styles/maps_details.css');
 @import url('./maps_styles/maps_figure.css');
 
+@import url('./information_styles/information.css');
+@import url('./information_styles/common_questions.css');
+
 :root {
     /*Colors*/
     --background-gradient: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
@@ -43,7 +46,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: var(--font-text);
-
 }
 
 html, body {
